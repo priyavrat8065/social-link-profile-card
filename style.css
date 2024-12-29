@@ -1,0 +1,18 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* VARIABLES */
+:root {
+  /* COLOR */
+  --bg-color: hsl(0, 0%, 8%);
+  --card-color: hsl(0, 0%, 12%);
+  --btn-color: hsl(0, 0%, 20%);
+  --ft-color-1: hsl(0, 0%, 100%);
+  --ft-color-2: hsl(75, 94%, 57%);
+}
