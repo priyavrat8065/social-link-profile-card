@@ -47,6 +47,13 @@ img {
   --btn-color: hsl(0, 0%, 20%);
   --ft-color-1: hsl(0, 0%, 100%);
   --ft-color-2: hsl(75, 94%, 57%);
+  /* MARGIN */
+  --margin-lg: 2.8rem;
+  --margin-md: 2.2rem;
+  --margin-sm: 1.6rem;
+  /* FONT SIZE */
+  --font-lg: 2.4rem;
+  --font-sm: 1.4rem;
 }
 /* GENERAL */
 body {
@@ -67,9 +74,28 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-block-end: var(--margin-lg);
 }
 figure img {
   width: 9rem;
   height: 9rem;
   border-radius: 50%;
+}
+/* CONTENT */
+.content {
+  line-height: 1.5;
+}
+.profile-name {
+  font-size: var(--font-lg);
+}
+.profile-place {
+  font-size: var(--font-sm);
+  color: var(--ft-color-2);
+  margin-block-end: var(--margin-lg);
+  font-weight: 600;
+}
+.profile-about {
+  font-size: var(--font-sm);
+  margin-block-end: var(--margin-md);
+  font-weight: 400;
 }
