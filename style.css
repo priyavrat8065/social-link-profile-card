@@ -51,4 +51,25 @@ img {
 /* GENERAL */
 body {
   font-family: "Inter", sans-serif;
+  background: var(--bg-color);
+  color: var(--ft-color-1);
+}
+/* CARD */
+.card {
+  width: min(calc(100% - 1.2rem), 384px);
+  background: var(--card-color);
+  margin-inline: auto;
+  padding: 2.4rem;
+  text-align: center;
+}
+/* IMAGE */
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+figure img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
 }
