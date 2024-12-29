@@ -60,6 +60,10 @@ body {
   font-family: "Inter", sans-serif;
   background: var(--bg-color);
   color: var(--ft-color-1);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* CARD */
 .card {
@@ -68,6 +72,7 @@ body {
   margin-inline: auto;
   padding: 2.4rem;
   text-align: center;
+  border-radius: 10px;
 }
 /* IMAGE */
 figure {
