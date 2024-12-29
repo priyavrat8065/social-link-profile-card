@@ -67,7 +67,7 @@ body {
 }
 /* CARD */
 .card {
-  width: min(calc(100% - 1.2rem), 384px);
+  width: min(calc(100% - 1.2rem * 2), 384px);
   background: var(--card-color);
   margin-inline: auto;
   padding: 2.4rem;
@@ -127,4 +127,9 @@ figure img {
   color: var(--card-color);
   background: var(--ft-color-2);
   outline: none;
+}
+@media screen and (min-width: 375px) {
+  .card {
+    width: min(calc(100% - 2.4rem * 2), 384px);
+  }
 }
